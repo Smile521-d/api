@@ -1,0 +1,62 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+/* Styling the container for the game list */
+#games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Styling the container for the video */
+#videoContainer {
+    margin-top: 20px;
+}
+
+/* Styling individual game cards */
+.game {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+    cursor: pointer;
+}
+
+/* Styling the game image */
+.game img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Styling the search input field */
+input[type="text"] {
+    padding: 10px;
+    margin-top: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling the search button */
+button {
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Styling the search button on hover */
+button:hover {
+    background-color: #555;
+}
